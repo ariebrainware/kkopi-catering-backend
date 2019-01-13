@@ -7,12 +7,17 @@ In this project we try to make our code clean and collaboration more fun. BTW, y
 If you are want to contribute, you can fork this repo and make as your own repo. Then clone it so can make changes locally. I suggest you to see complete branch  in `base repo`, yeah we call this repo as `base repo`. Or after you clone it, simple type `git branch -a`. It will list all branch in `base repo`.
 
 ### FAQ
-1.  How can i contribute?
-    A: You can help us create new feature, maintain existing code, give us an idea in [Idea Board](https://github.com/ariebrainware/kkopi-catering/projects/1#column-4146048)4
+1.  How can I contribute?
+    A: You can help us create new feature, maintain existing code, give us an idea in [Idea Board](https://github.com/ariebrainware/kkopi-catering/projects/1#column-4146048)
+2.  How to Install and getting started?
+    A: Here's the [Installation](#Installation) part.
 
 ## Installation
-You can follow this step to setup
+You can follow this step to setup:
 * Fork this repo
+* Then clone forked repo to your local machine
+* Type `git flow init` then hit `enter` for the rest question.
+* Install dependencies
 ```sh
 yarn
 yarn start
