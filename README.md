@@ -10,7 +10,7 @@ If you are want to contribute, you can fork this repo and make as your own repo.
 1.  How can I contribute?
     A: You can help us create new feature, maintain existing code, give us an idea in [Idea Board](https://github.com/ariebrainware/kkopi-catering/projects/1#column-4146048)
 2.  How to Install and getting started?
-    A: Here's the [Installation](#Installation) part.
+    A: Here's the [Installation](#installation) part.
 
 ## Installation
 You can follow this step to setup:
@@ -22,3 +22,8 @@ You can follow this step to setup:
 yarn
 yarn start
 ```
+
+
+## Reference
+
+Collaboration model: https://nvie.com/posts/a-successful-git-branching-model/
