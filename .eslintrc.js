@@ -8,7 +8,6 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
     'plugin:css-modules/recommended',
     'airbnb',
   ],
@@ -25,20 +24,13 @@ module.exports = {
   globals: {
     'google': true,
     '__VERSION__': true,
-    '__REGION__': true,
     '__ENV__': true,
-    '__MY__': true,
-    '__SG__': true,
-    '__HK__': true,
-    '__VN__': true,
     '__PROD__': true,
-    'ga': true,
-    'paypal': true,
     '__BUILD_TARGET__': true,
     '$': true,
     '__DEV__': true,
   },
-  plugins: ['react', 'import', 'css-modules', 'json'],
+  plugins: ['import', 'css-modules', 'json'],
   rules: {
     indent: ['error', 2],
     quotes: ['error', 'single'],
@@ -53,23 +45,11 @@ module.exports = {
     'lines-between-class-members': ['error', 'always'],
     'arrow-body-style': 0,
     'no-underscore-dangle': 0,
-    'no-nested-ternary': 1, // warning for now, merchant-portal used alot and related to logic
+    'no-nested-ternary': 1,
 
     // import
     'import/no-unresolved': [2, { ignore: ['config/message$'] }],
     'import/prefer-default-export': 0,
-
-    // react
-    'react/forbid-prop-types': [2, { forbid: ['any'] }],
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'react/no-array-index-key': 1, // warning for now, don't know how to fix
-    "jsx-a11y/anchor-is-valid": [ "error", {
-      components: [ "Link" ],
-      specialLink: [ "to" ],
-      aspects: [ "noHref", "invalidHref", "preferButton" ]
-    }],
-    'jsx-a11y/no-static-element-interactions': 1,
-    'jsx-a11y/click-events-have-key-events': 1,
 
     // css
     'css-modules/no-unused-class': 1,
@@ -87,8 +67,6 @@ module.exports = {
       "node": {
         "extensions": [
           ".js",
-          ".android.js",
-          ".ios.js"
         ]
       }
     }
