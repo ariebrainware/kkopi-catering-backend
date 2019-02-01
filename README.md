@@ -19,8 +19,8 @@ You can follow this step to setup:
 * Type `git flow init` then hit `enter` for the rest question.
 * Install dependencies
 ```sh
-yarn
-yarn start
+npm i
+npm start
 ```
 
 
