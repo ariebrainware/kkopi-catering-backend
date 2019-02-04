@@ -25,6 +25,15 @@ module.exports = {
         "semi": [
             "error",
             "never"
+        ],
+        "keyword-spacing": {
+            "before": true,
+            "after": true
+        },
+        "comma-dangle": [
+            "error",
+            "always",
+            "only-multiline"
         ]
     }
 };
