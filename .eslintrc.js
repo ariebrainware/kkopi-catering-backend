@@ -14,10 +14,12 @@ module.exports = {
         'linebreak-style': ['error', 'unix'],
         'quotes': ['error', 'single'],
         'semi': ['error', 'never'],
-        'keyword-spacing': ['error', { 'before': true, 'after': true }],
         'comma-dangle': ['error', 'always-multiline'],
+        'keyword-spacing': ['error', { 'before': true, 'after': true }],
+        'key-spacing': [ 'error', { 'afterColon': true }],
         'comma-spacing': ['error', { 'after': true, 'before': false }],
         'no-trailing-spaces': ['error'],
+        'no-multi-spaces': 'error',        
         'no-param-reassign': ['error', { props: false }],
         'object-curly-newline': [0],
         'lines-between-class-members': ['error', 'always'],
@@ -25,6 +27,6 @@ module.exports = {
         'no-underscore-dangle': 0,
         'no-nested-ternary': 1,
         'no-duplicate-imports': 'error',
-        'no-multi-spaces': 'error'
+        'eol-last': ['error', 'always']
     }
 };
