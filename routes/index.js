@@ -3,9 +3,9 @@ const router = express.Router()
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.send({ 
+  res.send({
     title: 'Kampung Kopi Backend',
-    version:'v1.0'
+    version: 'v1.0',
   })
 })
 
