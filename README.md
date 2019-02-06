@@ -1,6 +1,7 @@
 # Kampung Kopi Catering
 ![Content-API](https://img.shields.io/badge/content-API-green.svg)
 ![Section-Backend](https://img.shields.io/badge/section-backend-lightgrey.svg)
+![Last-commit](https://img.shields.io/github/last-commit/ariebrainware/kkopi-catering-backend.svg)
 
 Kampung Kopi Catering is the web app that handle [Glints](https://glints.com)'s lunch order.
 
