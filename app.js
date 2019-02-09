@@ -10,6 +10,7 @@ const app = express()
 const indexRouter = require('./routes/index')
 const menuRouter = require('./routes/menu/index')
 const orderRouter = require('./routes/order')
+const adminrouter = require('./routes/admin')
 
 app.use(logger('dev'))
 app.use(express.json())
@@ -19,6 +20,7 @@ app.use(cookieParser())
 app.use('/', indexRouter)
 app.use('/menu', menuRouter)
 app.use('/order', orderRouter)
+app.use('/admin', adminrouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
