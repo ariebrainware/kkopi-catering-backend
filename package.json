@@ -9,7 +9,6 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "axios": "^0.18.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "dotenv-extended": "^2.3.0",
@@ -19,7 +18,6 @@
     "jade": "~1.11.0",
     "moment": "^2.24.0",
     "morgan": "~1.9.0",
-    "node-telegram-bot-api": "^0.30.0",
     "pg": "^7.8.0",
     "pg-hstore": "^2.3.2",
     "qs": "^6.6.0",
